@@ -1,9 +1,9 @@
-![Cherish](cherish.png)
+![Cherish](assets/cherish.png)
 # <b> <i> CherishOS | Built with </i>💖
 
- ### <b> <i> Getting Started: ###
-To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
----
+### <b> <i> Getting Started: ###
+### To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
 <br>
 
 ### <b> Install the build packages : ###
@@ -22,7 +22,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 ```bash 
      sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 ```
-
+![Sync](assets/source.png)
 ### <b> Sync our source ###
 ```bash
     repo init -u https://github.com/CherishOS/android_manifest.git -b twelve 
@@ -37,6 +37,14 @@ To get started with the building process, you'll need to get familiar with [Git 
         lunch cherish_$devicecodename-userdebug
         brunch cherish_$devicecodename-userdebug
 ```
+![credit](assets/credits.png)
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**Nitrogen-Project**](https://github.com/nitrogen-project)
+ * [**DotOS**](https://github.com/DotOS)
+ * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**ABC Rom**](https://github.com/ezio84)
+ * [**Descendant**](https://github.com/Descendant-XI)
 
 ### <b> Apply for Official Maintainership ###
 ---
